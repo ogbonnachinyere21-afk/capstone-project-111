@@ -56,7 +56,7 @@ SET
     day = FLOOR(time / 24),
     hour_of_day = time % 24;
 	
-UPDATE customers
+UPDATE customers 
 SET age = 100
 WHERE age > 100;
 
